@@ -7,6 +7,7 @@ import Aboute from './components/Aboute/Aboute'
 import Campus from './components/Campus/Campus'
 import Testimonial from './components/Testimonial/Testimonial'
 import Contect from './components/Contect/Contect'
+import Footer from './components/Footer/Footer'
 
 
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
          <Title subTitle='Contact Us '
          title='Get In Touch'/>
          <Contect/>
+         <Footer/>
       </div>
        
     </div>
