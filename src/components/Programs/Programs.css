@@ -9,7 +9,7 @@ justify-content:center;
     width:100%;
     border-radius: 10px;
     display:block;
-    margin:;
+
 
 }
 .program{
@@ -44,4 +44,14 @@ justify-content:center;
 .program:hover .caption{
     opacity: 1;
     padding-top: 0;
+}
+/* ------media query----- */
+@media (max-width:650px){
+ .programs{
+    flex-direction: column;
+ }
+ .program{
+    flex-basis: 100%;
+    margin:20px;
+ }
 }
